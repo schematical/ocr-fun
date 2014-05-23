@@ -1,2 +1,4 @@
 var ocr = require('./lib');
-ocr({});
+ocr({
+    img_path:__dirname + '/test1.jpg'
+});
