@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/test1.out.png" afterPath="$PROJECT_DIR$/lib/test1.out.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/test1.out.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cluster.js" afterPath="$PROJECT_DIR$/lib/cluster.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,32 +31,25 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="10" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
+            <state line="2" column="4" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="271" selection-end="271" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="2718">
+            <state line="9" column="19" selection-start="271" selection-end="271" vertical-scroll-proportion="0.40601504" vertical-offset="0" max-vertical-offset="2718">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.out.png" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/test1.out.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="cluster.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cluster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="40" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6048">
+            <state line="190" column="22" selection-start="5438" selection-end="5438" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="6084">
               <folding />
             </state>
           </provider>
@@ -130,60 +124,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="canvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="canvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,13 +263,6 @@
         <state line="8" column="23" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/canvas/lib/canvas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="34" selection-start="282" selection-end="282" vertical-scroll-proportion="0.5070422" vertical-offset="54" max-vertical-offset="4104">
@@ -344,16 +277,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cluster.js">
+    <entry file="file://$PROJECT_DIR$/test1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="40" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="6048">
+        <state line="2" column="4" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
+    <entry file="file://$PROJECT_DIR$/lib/cluster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="271" selection-end="271" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="2718">
+        <state line="190" column="22" selection-start="5438" selection-end="5438" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="6084">
           <folding />
         </state>
       </provider>
@@ -361,6 +299,13 @@
     <entry file="file://$PROJECT_DIR$/lib/test1.out.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="271" selection-end="271" vertical-scroll-proportion="0.40601504" vertical-offset="0" max-vertical-offset="2718">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
