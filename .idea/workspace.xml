@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/test1.out.png" afterPath="$PROJECT_DIR$/lib/test1.out.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cluster.js" afterPath="$PROJECT_DIR$/lib/cluster.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/index.js" afterPath="$PROJECT_DIR$/lib/index.js" />
     </list>
@@ -38,16 +39,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="49" selection-start="3147" selection-end="3147" vertical-scroll-proportion="-4.9259257" vertical-offset="1361" max-vertical-offset="2556">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cluster.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cluster.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="9" selection-start="7533" selection-end="7533" vertical-scroll-proportion="0.0" vertical-offset="4542" max-vertical-offset="5292">
+            <state line="9" column="19" selection-start="271" selection-end="271" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="2718">
               <folding />
             </state>
           </provider>
@@ -57,6 +49,15 @@
         <entry file="file://$PROJECT_DIR$/lib/test1.out.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cluster.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="40" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6048">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -75,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/lib/cluster.js" />
+        <option value="$PROJECT_DIR$/lib/index.js" />
       </list>
     </option>
   </component>
@@ -343,16 +344,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
+    <entry file="file://$PROJECT_DIR$/lib/cluster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="49" selection-start="3147" selection-end="3147" vertical-scroll-proportion="-4.9259257" vertical-offset="1361" max-vertical-offset="2556">
+        <state line="67" column="40" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="6048">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cluster.js">
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="9" selection-start="7533" selection-end="7533" vertical-scroll-proportion="0.0" vertical-offset="4542" max-vertical-offset="5292">
+        <state line="9" column="19" selection-start="271" selection-end="271" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="2718">
           <folding />
         </state>
       </provider>
