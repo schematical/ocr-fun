@@ -1,0 +1,50 @@
+{
+    "app_name":"Photo Booth",
+    "frameworks":{
+    },
+    "models":{
+
+        "event":{
+            "uri_prefix":"",
+            "fields":{
+                "namespace":"namespace",
+                "name":"string",
+                "desc":"md",
+                "date":"date",
+                "owner":{
+                    "type":"ref",
+                    "ref":"account",
+                    "bootstrap_populate":"req.user"
+                }
+
+            }
+        },
+        "photo":{
+            "parent":"event",
+            "uri_prefix":"/photos",
+            "fields":{
+                "namespace":"namespace",
+                "name":"string",
+                "original_img":"s3-asset",
+                "thumb_img":"s3-asset",
+                "event":{
+                    "type":"ref",
+                    "ref":"event"
+                }
+            }
+        }
+    },
+    "bowser":{
+        "dependencies":{
+            "fontawesome":"*"
+        }
+    },
+    "package":{
+        "dependencies":{
+            "gm":"*",
+            "mkdirp":"*",
+            "postmark":"*",
+            "hogan.js":"*"
+        }
+    }
+}
