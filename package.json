@@ -1,0 +1,14 @@
+{
+    "name": "ocr-fun",
+    "version": "0.1.0",
+    "main": "app.js",
+    "private": "true",
+    "dependencies": {
+        "canvas":"*",
+        "async":"*",
+        "underscore":"*"
+    },
+    "scripts":{
+        "postinstall":""
+    }
+}
