@@ -1,0 +1,8 @@
+{{> _header }}
+
+{{> _navbar }}
+    {{# clusters }}
+        <img src="{{ data_url }}" /><br>
+    {{/clusters}}
+
+{{> _footer }}

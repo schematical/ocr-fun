@@ -1,0 +1,36 @@
+{{> _header }}
+
+{{> _navbar }}
+<div class='row'>
+    <div class='col-md-4 col-md-offset-4'>
+        <form role="form" action="/login" method="post">
+
+            <h1>Sign In</h1>
+            {{# error }}
+            <div class='alert alert-danger'>
+                {{ message }}
+            </div>
+            {{/ error }}
+            <div class="form-group">
+                <label for="username">Email address</label>
+                <input type="email" name="username" class="form-control" id="username" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password"  name='password' class="form-control" id="password" placeholder="Password">
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+
+        <!-- Text Under Box -->
+        <div class="login-extra">
+            Don't have an account? <a href="/register">Sign Up</a><br/>
+            Remind <a href="#">Password</a>
+        </div> <!-- /login-extra -->
+    </div>
+</div>
+
+
+{{> _footer }}

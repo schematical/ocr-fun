@@ -1,0 +1,35 @@
+{{> _header }}
+{{> _navbar }}
+<div class="page-header">
+    <h1>{{ symbol.name }}<small>{{{ symbol.desc }}}</small></h1>
+</div>
+
+    <h3>Namespace</h3>
+    
+        {{ symbol.namespace }}
+    
+
+    <h3>Name</h3>
+    
+        {{ symbol.name }}
+    
+
+    <h3>Desc</h3>
+    
+        {{{ symbol.desc }}}
+    
+
+    <h3>Tags</h3>
+    
+        {{ symbol.tags }}
+    
+
+    <h3>Owner</h3>
+    
+        {{ symbol.owner }}
+    
+
+<a class='btn btn-default btn-sm' href='{{ symbol.uri }}/edit'>
+    Edit
+</a>
+{{> _footer }}

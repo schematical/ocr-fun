@@ -1,0 +1,37 @@
+{{> _header }}
+
+{{> _navbar }}
+<div class='row'>
+    <div class='col-md-4 col-md-offset-4'>
+        <form role="form" action="/register" method="post">
+
+            <h1>Create Your Account</h1>
+            {{# error }}
+            <div class='alert alert-danger'>
+                {{ message }}
+            </div>
+            {{/ error }}
+            <div class="form-group">
+                <label for="username">Email address</label>
+                <input type="email"  name="username" class="form-control" id="username" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name='password' id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="password_confirm">Password</label>
+                <input type="password" class="form-control" id="password_confirm" placeholder="Confirm Password" name='password_confirm' >
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+
+        <!-- Text Under Box -->
+        <div class="login-extra">
+            Have an account? <a href="/login">Login</a><br/>
+        </div> <!-- /login-extra -->
+    </div>
+</div>
+
+{{> _footer }}

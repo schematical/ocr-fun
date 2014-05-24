@@ -1,16 +1,15 @@
 {
-    "app_name":"Photo Booth",
+    "app_name":"n-glass",
     "frameworks":{
     },
     "models":{
-
-        "event":{
+        "symbol":{
             "uri_prefix":"",
             "fields":{
                 "namespace":"namespace",
                 "name":"string",
                 "desc":"md",
-                "date":"date",
+                "tags":"Object",
                 "owner":{
                     "type":"ref",
                     "ref":"account",
@@ -19,18 +18,19 @@
 
             }
         },
-        "photo":{
-            "parent":"event",
-            "uri_prefix":"/photos",
+        "image":{
+            "uri_prefix":"/images",
             "fields":{
                 "namespace":"namespace",
                 "name":"string",
-                "original_img":"s3-asset",
-                "thumb_img":"s3-asset",
-                "event":{
+                "image":"s3-asset",
+                "desc":"md",
+                "owner":{
                     "type":"ref",
-                    "ref":"event"
+                    "ref":"account",
+                    "bootstrap_populate":"req.user"
                 }
+
             }
         }
     },
@@ -43,7 +43,7 @@
         "dependencies":{
             "gm":"*",
             "mkdirp":"*",
-            "postmark":"*",
+            "canvas":"*",
             "hogan.js":"*"
         }
     }

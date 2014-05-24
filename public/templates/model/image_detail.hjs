@@ -1,0 +1,35 @@
+{{> _header }}
+{{> _navbar }}
+<div class="page-header">
+    <h1>{{ image.name }}<small>{{{ image.desc }}}</small></h1>
+</div>
+
+    <h3>Namespace</h3>
+    
+        {{ image.namespace }}
+    
+
+    <h3>Name</h3>
+    
+        {{ image.name }}
+    
+
+    <h3>Image</h3>
+    
+        <img src="{{{ image.image_s3 }}}" />
+    
+
+    <h3>Desc</h3>
+    
+        {{{ image.desc }}}
+    
+
+    <h3>Owner</h3>
+    
+        {{ image.owner }}
+    
+
+<a class='btn btn-default btn-sm' href='{{ image.uri }}/edit'>
+    Edit
+</a>
+{{> _footer }}
