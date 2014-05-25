@@ -1,0 +1,40 @@
+{{> _header }}
+{{> _navbar }}
+<div class="page-header">
+    <h1>{{ cluster.name }}<small>{{{ cluster.desc }}}</small></h1>
+</div>
+
+    <h3>Bounds</h3>
+    
+        {{ cluster.bounds }}
+    
+
+    <h3>X</h3>
+    
+        {{ cluster.x }}
+    
+
+    <h3>Y</h3>
+    
+        {{ cluster.y }}
+    
+
+    <h3>Rotation</h3>
+    
+        {{ cluster.rotation }}
+    
+
+    <h3>Value</h3>
+    
+        {{ cluster.value }}
+    
+
+    <h3>Pixels</h3>
+    
+        {{ cluster.pixels }}
+    
+
+<a class='btn btn-default btn-sm' href='{{ cluster.uri }}/edit'>
+    Edit
+</a>
+{{> _footer }}

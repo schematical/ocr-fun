@@ -1,0 +1,50 @@
+
+
+<form role="form" action='{{ image.uri }}/clusters/{{ cluster._id }}' method='POST' enctype="multipart/form-data">
+    
+        
+            <div class="form-group">
+                <label for="bounds">bounds</label>
+                <input name="bounds" type="bounds" class="form-control" id="bounds" placeholder="Enter bounds" value="{{ cluster.bounds }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="x">x</label>
+                <input name="x" type="x" class="form-control" id="x" placeholder="Enter x" value="{{ cluster.x }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="y">y</label>
+                <input name="y" type="y" class="form-control" id="y" placeholder="Enter y" value="{{ cluster.y }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="rotation">rotation</label>
+                <input name="rotation" type="rotation" class="form-control" id="rotation" placeholder="Enter rotation" value="{{ cluster.rotation }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="value">value</label>
+                <input name="value" type="value" class="form-control" id="value" placeholder="Enter value" value="{{ cluster.value }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="pixels">pixels</label>
+                <input name="pixels" type="pixels" class="form-control" id="pixels" placeholder="Enter pixels" value="{{ cluster.pixels }}">
+            </div>
+        
+    
+
+
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>

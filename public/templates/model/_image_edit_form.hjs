@@ -28,6 +28,13 @@
         
     
         
+            <div class="form-group">
+                <label for="clusters">clusters</label>
+                <input name="clusters" type="clusters" class="form-control" id="clusters" placeholder="Enter clusters" value="{{ image.clusters }}">
+            </div>
+        
+    
+        
             {{^ account }}
             <div class="form-group">
                 <label for="owner">owner</label>

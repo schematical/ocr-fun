@@ -25,12 +25,26 @@
                 "name":"string",
                 "image":"s3-asset",
                 "desc":"md",
+                "clusters":["app.model.Cluster"],
                 "owner":{
                     "type":"ref",
                     "ref":"account",
                     "bootstrap_populate":"req.user"
                 }
 
+            }
+        },
+        "cluster":{
+            "parent":"image",
+            "uri_prefix":"/clusters",
+            "data_url":"string",
+            "fields":{
+                "bounds":"object",
+                "x":"number",
+                "y":"number",
+                "rotation":"number",
+                "value":"string",
+                "pixels":"object"
             }
         }
     },
@@ -44,7 +58,8 @@
             "gm":"*",
             "mkdirp":"*",
             "canvas":"*",
-            "hogan.js":"*"
+            "hogan.js":"*",
+            "aws-sdk":"*"
         }
     }
 }

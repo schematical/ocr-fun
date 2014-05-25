@@ -4,73 +4,67 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            {{> _image_edit_form }}
+            {{> _cluster_edit_form }}
         </div>
         <div class="col-md-8 col-md-offset-1">
             <table class="table">
                 <tr>
                     
                         <th>
-                            namespace
+                            bounds
                         </th>
                     
                         <th>
-                            name
+                            x
                         </th>
                     
                         <th>
-                            image
+                            y
                         </th>
                     
                         <th>
-                            desc
+                            rotation
                         </th>
                     
                         <th>
-                            clusters
+                            value
                         </th>
                     
                         <th>
-                            owner
+                            pixels
                         </th>
                     
                 </tr>
-                {{# images }}
+                {{# clusters }}
                     <tr>
                         
                             <td>
-                                {{ namespace }}
+                                {{ bounds }}
                             </td>
                         
                             <td>
-                                {{ name }}
+                                {{ x }}
                             </td>
                         
                             <td>
-                                {{ image }}
+                                {{ y }}
                             </td>
                         
                             <td>
-                                {{ desc }}
+                                {{ rotation }}
                             </td>
                         
                             <td>
-                                {{ clusters }}
+                                {{ value }}
                             </td>
                         
                             <td>
-                                {{ owner }}
+                                {{ pixels }}
                             </td>
                         
-                        
-                        <td>
-                            <a class='btn btn-default btn-sm' href='{{ uri }}'>
-                                View
-                            </a>
-                        </td>
                         
                     </tr>
-                {{/ images }}
+                {{/ clusters }}
             </table>
         </div>
     </div>
