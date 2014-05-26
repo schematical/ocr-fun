@@ -8,15 +8,15 @@ Trying to render clusters
 
             <img src="{{ data_url }}" class="img-thumbnail col-md-1" />
             <div class="col-md-9">
-                <form class="form-inline" role="form" action="{{uri}}">
+                <form class="form-inline" role="form" action="{{uri}}" method="post">
                     <div class="form-group">
                         <label class="sr-only" for="exampleInputEmail2">Value</label>
-                        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Value">
+                        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Value" name="results">
                     </div>
 
                    <div class="form-group">
                         <label class="sr-only" for="exampleInputPassword2">ID</label>
-                        <input type="text" class="form-control" id="exampleInputPassword2" placeholder="ID" value=" {{ _id }} - {{ index }}">
+                        <input type="text" class="form-control" id="exampleInputPassword2" placeholder="ID" value=" {{ _id }}">
                     </div>
                     <!--<div class="checkbox">
                         <label>
