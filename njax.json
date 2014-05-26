@@ -20,6 +20,7 @@
         },
         "cluster":{
             "parent":"image",
+            "is_subdocument":true,
             "uri_prefix":"/clusters",
             "fields":{
                 "bounds":"object",
@@ -38,7 +39,7 @@
                 "name":"string",
                 "image":"s3-asset",
                 "desc":"md",
-                "clusters":["app.model.Cluster.Schema"],
+                "clusters":["app.model.Cluster.schema"],
                 "owner":{
                     "type":"ref",
                     "ref":"account",

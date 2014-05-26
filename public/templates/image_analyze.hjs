@@ -1,12 +1,14 @@
 {{> _header }}
 
 {{> _navbar }}
+Trying to render clusters
     {{# clusters }}
+        cluster?
         <div class="row">
 
             <img src="{{ data_url }}" class="img-thumbnail col-md-1" />
             <div class="col-md-9">
-                <form class="form-inline" role="form">
+                <form class="form-inline" role="form" action="{{uri}}">
                     <div class="form-group">
                         <label class="sr-only" for="exampleInputEmail2">Value</label>
                         <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Value">
@@ -16,12 +18,12 @@
                         <label class="sr-only" for="exampleInputPassword2">ID</label>
                         <input type="text" class="form-control" id="exampleInputPassword2" placeholder="ID" value=" {{ _id }} - {{ index }}">
                     </div>
-                    <div class="checkbox">
+                    <!--<div class="checkbox">
                         <label>
                             <input type="checkbox"> Remember me
                         </label>
                     </div>-->
-                    <button type="save" class="btn btn-default">Save</button>
+                    <button type="submit" class="btn btn-default">Save</button>
                 </form>
             </div>
         </div>
