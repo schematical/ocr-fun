@@ -10,6 +10,7 @@
                 "name":"string",
                 "desc":"md",
                 "tags":"Object",
+                "data":"Object",
                 "owner":{
                     "type":"ref",
                     "ref":"account",
@@ -26,6 +27,8 @@
                 "bounds":"object",
                 "x":"number",
                 "y":"number",
+                "height":"number",
+                "width":"number",
                 "rotation":"number",
                 "results":"string",
                 "data_url":"string",
