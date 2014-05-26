@@ -27,7 +27,11 @@
                         </th>
                     
                         <th>
-                            value
+                            results
+                        </th>
+                    
+                        <th>
+                            data_url
                         </th>
                     
                         <th>
@@ -55,7 +59,11 @@
                             </td>
                         
                             <td>
-                                {{ value }}
+                                {{ results }}
+                            </td>
+                        
+                            <td>
+                                {{ data_url }}
                             </td>
                         
                             <td>

@@ -32,8 +32,15 @@
     
         
             <div class="form-group">
-                <label for="value">value</label>
-                <input name="value" type="value" class="form-control" id="value" placeholder="Enter value" value="{{ cluster.value }}">
+                <label for="results">results</label>
+                <input name="results" type="results" class="form-control" id="results" placeholder="Enter results" value="{{ cluster.results }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="data_url">data_url</label>
+                <input name="data_url" type="data_url" class="form-control" id="data_url" placeholder="Enter data_url" value="{{ cluster.data_url }}">
             </div>
         
     

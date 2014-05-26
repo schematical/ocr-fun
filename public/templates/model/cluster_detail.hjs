@@ -24,9 +24,14 @@
         {{ cluster.rotation }}
     
 
-    <h3>Value</h3>
+    <h3>Results</h3>
     
-        {{ cluster.value }}
+        {{ cluster.results }}
+    
+
+    <h3>Data_url</h3>
+    
+        {{ cluster.data_url }}
     
 
     <h3>Pixels</h3>

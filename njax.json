@@ -18,6 +18,19 @@
 
             }
         },
+        "cluster":{
+            "parent":"image",
+            "uri_prefix":"/clusters",
+            "fields":{
+                "bounds":"object",
+                "x":"number",
+                "y":"number",
+                "rotation":"number",
+                "results":"string",
+                "data_url":"string",
+                "pixels":"object"
+            }
+        },
         "image":{
             "uri_prefix":"/images",
             "fields":{
@@ -25,26 +38,13 @@
                 "name":"string",
                 "image":"s3-asset",
                 "desc":"md",
-                "clusters":["app.model.Cluster"],
+                "clusters":["app.model.Cluster.Schema"],
                 "owner":{
                     "type":"ref",
                     "ref":"account",
                     "bootstrap_populate":"req.user"
                 }
 
-            }
-        },
-        "cluster":{
-            "parent":"image",
-            "uri_prefix":"/clusters",
-            "data_url":"string",
-            "fields":{
-                "bounds":"object",
-                "x":"number",
-                "y":"number",
-                "rotation":"number",
-                "value":"string",
-                "pixels":"object"
             }
         }
     },
