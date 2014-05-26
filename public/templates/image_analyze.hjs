@@ -3,7 +3,6 @@
 {{> _navbar }}
 Trying to render clusters
     {{# clusters }}
-        cluster?
         <div class="row">
 
             <img src="{{ data_url }}" class="img-thumbnail col-md-1" />

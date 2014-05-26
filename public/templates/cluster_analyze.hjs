@@ -1,0 +1,9 @@
+{{> _header }}
+
+{{> _navbar }}
+
+
+
+
+
+{{> _footer }}
