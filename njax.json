@@ -4,13 +4,28 @@
     },
     "models":{
         "symbol":{
-            "uri_prefix":"",
+            "uri_prefix":"/symbols",
+            "parent":"library",
             "fields":{
                 "namespace":"namespace",
                 "name":"string",
                 "desc":"md",
                 "tags":"Object",
                 "data":"Object",
+                "library":{
+                    "type":"ref",
+                    "ref":"library",
+                    "bootstrap_populate":"req.library"
+                }
+
+            }
+        },
+        "library":{
+            "uri_prefix":"/librarys",
+            "fields":{
+                "namespace":"namespace",
+                "name":"string",
+                "desc":"md",
                 "owner":{
                     "type":"ref",
                     "ref":"account",

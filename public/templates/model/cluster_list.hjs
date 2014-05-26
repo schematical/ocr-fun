@@ -23,6 +23,14 @@
                         </th>
                     
                         <th>
+                            height
+                        </th>
+                    
+                        <th>
+                            width
+                        </th>
+                    
+                        <th>
                             rotation
                         </th>
                     
@@ -52,6 +60,14 @@
                         
                             <td>
                                 {{ y }}
+                            </td>
+                        
+                            <td>
+                                {{ height }}
+                            </td>
+                        
+                            <td>
+                                {{ width }}
                             </td>
                         
                             <td>

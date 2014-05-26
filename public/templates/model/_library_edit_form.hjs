@@ -1,0 +1,40 @@
+
+
+<form role="form" action='/librarys/{{ library._id }}' method='POST' enctype="multipart/form-data">
+    
+        
+            <div class="form-group">
+                <label for="namespace">namespace</label>
+                <input name="namespace" type="namespace" class="form-control" id="namespace" placeholder="Enter namespace" value="{{ library.namespace }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="name">name</label>
+                <input name="name" type="name" class="form-control" id="name" placeholder="Enter name" value="{{ library.name }}">
+            </div>
+        
+    
+        
+            <textarea id="desc" name="desc" class="form-control" rows="3">{{ library.desc}}</textarea>
+        
+    
+        
+            {{^ account }}
+            <div class="form-group">
+                <label for="owner">owner</label>
+                <select id="owner" name='owner' value='{{ library.owner }}'>
+                    {{# owners }}
+                        <option {{# _selected }}selected='true'{{/ _selected}} value='{{ _id }}'>{{ name }}</option>
+                    {{/ owners }}
+                </select>
+            </div>
+             {{/ account }}
+
+        
+    
+
+
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>

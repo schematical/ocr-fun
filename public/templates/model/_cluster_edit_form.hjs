@@ -25,6 +25,20 @@
     
         
             <div class="form-group">
+                <label for="height">height</label>
+                <input name="height" type="height" class="form-control" id="height" placeholder="Enter height" value="{{ cluster.height }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
+                <label for="width">width</label>
+                <input name="width" type="width" class="form-control" id="width" placeholder="Enter width" value="{{ cluster.width }}">
+            </div>
+        
+    
+        
+            <div class="form-group">
                 <label for="rotation">rotation</label>
                 <input name="rotation" type="rotation" class="form-control" id="rotation" placeholder="Enter rotation" value="{{ cluster.rotation }}">
             </div>

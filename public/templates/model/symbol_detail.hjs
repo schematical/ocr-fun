@@ -24,9 +24,14 @@
         {{ symbol.tags }}
     
 
-    <h3>Owner</h3>
+    <h3>Data</h3>
     
-        {{ symbol.owner }}
+        {{ symbol.data }}
+    
+
+    <h3>Library</h3>
+    
+        {{ symbol.library }}
     
 
 <a class='btn btn-default btn-sm' href='{{ symbol.uri }}/edit'>

@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            {{> _symbol_edit_form }}
+            {{> _library_edit_form }}
         </div>
         <div class="col-md-8 col-md-offset-1">
             <table class="table">
@@ -23,19 +23,11 @@
                         </th>
                     
                         <th>
-                            tags
-                        </th>
-                    
-                        <th>
-                            data
-                        </th>
-                    
-                        <th>
-                            library
+                            owner
                         </th>
                     
                 </tr>
-                {{# symbols }}
+                {{# librarys }}
                     <tr>
                         
                             <td>
@@ -51,15 +43,7 @@
                             </td>
                         
                             <td>
-                                {{ tags }}
-                            </td>
-                        
-                            <td>
-                                {{ data }}
-                            </td>
-                        
-                            <td>
-                                {{ library }}
+                                {{ owner }}
                             </td>
                         
                         
@@ -70,7 +54,7 @@
                         </td>
                         
                     </tr>
-                {{/ symbols }}
+                {{/ librarys }}
             </table>
         </div>
     </div>

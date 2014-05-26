@@ -1,6 +1,6 @@
 
 
-<form role="form" action='/{{ symbol._id }}' method='POST' enctype="multipart/form-data">
+<form role="form" action='{{ library.uri }}/symbols/{{ symbol._id }}' method='POST' enctype="multipart/form-data">
     
         
             <div class="form-group">
@@ -28,16 +28,23 @@
         
     
         
-            {{^ account }}
             <div class="form-group">
-                <label for="owner">owner</label>
-                <select id="owner" name='owner' value='{{ symbol.owner }}'>
-                    {{# owners }}
+                <label for="data">data</label>
+                <input name="data" type="data" class="form-control" id="data" placeholder="Enter data" value="{{ symbol.data }}">
+            </div>
+        
+    
+        
+            {{^ library }}
+            <div class="form-group">
+                <label for="library">library</label>
+                <select id="library" name='library' value='{{ symbol.library }}'>
+                    {{# librarys }}
                         <option {{# _selected }}selected='true'{{/ _selected}} value='{{ _id }}'>{{ name }}</option>
-                    {{/ owners }}
+                    {{/ librarys }}
                 </select>
             </div>
-             {{/ account }}
+             {{/ library }}
 
         
     

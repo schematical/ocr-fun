@@ -1,0 +1,19 @@
+{{> _header }}
+
+{{> _navbar }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="list-group">
+                <li class="list-group-item active">
+                    Basic Info
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+            {{> _library_edit_form }}
+        </div>
+    </div>
+</div>
+{{> _footer }}
+

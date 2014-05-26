@@ -19,6 +19,16 @@
         {{ cluster.y }}
     
 
+    <h3>Height</h3>
+    
+        {{ cluster.height }}
+    
+
+    <h3>Width</h3>
+    
+        {{ cluster.width }}
+    
+
     <h3>Rotation</h3>
     
         {{ cluster.rotation }}
