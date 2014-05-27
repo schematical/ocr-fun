@@ -7,7 +7,7 @@ Trying to render clusters
 
             <img src="{{ data_url }}" class="img-thumbnail col-md-1" />
             <div class="col-md-9">
-                <form class="form-inline" role="form" action="/librarys/default/symbols/e/create_from_cluster" x="{{uri}}" method="post">
+                <form class="form-inline" role="form" action="/librarys/default/symbols/f/create_from_cluster" x="{{uri}}" method="post">
                     <div class="form-group">
                         <label class="sr-only" for="exampleInputEmail2">Value</label>
                         <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Value" name="results">
