@@ -2,8 +2,11 @@
 
 {{> _navbar }}
 
-
-
+Results:
+    {{# results }}
+        {{ match }} - {{ symbol.namespace }}
+        <br />
+    {{/results}}
 
 
 {{> _footer }}
