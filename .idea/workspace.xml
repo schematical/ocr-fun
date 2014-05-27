@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/model/_symbol_edit_form.hjs" afterPath="$PROJECT_DIR$/public/templates/model/_symbol_edit_form.hjs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/index.js" afterPath="$PROJECT_DIR$/lib/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/njax.json" afterPath="$PROJECT_DIR$/njax.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/ocr/pixel_array.js" afterPath="$PROJECT_DIR$/lib/modules/ocr/pixel_array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/model/symbol.js" afterPath="$PROJECT_DIR$/lib/routes/model/symbol.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/symbol_create_from_cluster.hjs" afterPath="$PROJECT_DIR$/public/templates/symbol_create_from_cluster.hjs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/model/symbol_detail.hjs" afterPath="$PROJECT_DIR$/public/templates/model/symbol_detail.hjs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/_gen/symbol_gen.js" afterPath="$PROJECT_DIR$/lib/model/_gen/symbol_gen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/model/symbol_list.hjs" afterPath="$PROJECT_DIR$/public/templates/model/symbol_list.hjs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocr-fun.iws" />
@@ -37,7 +30,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="16" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.0" vertical-offset="1473" max-vertical-offset="2322">
+            <state line="100" column="60" selection-start="3244" selection-end="3244" vertical-scroll-proportion="-36.11111" vertical-offset="825" max-vertical-offset="2520">
               <folding />
             </state>
           </provider>
@@ -46,7 +39,7 @@
       <file leaf-file-name="pixel_array.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/modules/ocr/pixel_array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="42" selection-start="6405" selection-end="6408" vertical-scroll-proportion="0.45070422" vertical-offset="4002" max-vertical-offset="5022">
+            <state line="127" column="42" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.34085214" vertical-offset="2150" max-vertical-offset="4662">
               <folding />
             </state>
           </provider>
@@ -64,7 +57,7 @@
       <file leaf-file-name="pixel_by_pixel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="9" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1188">
+            <state line="22" column="38" selection-start="663" selection-end="669" vertical-scroll-proportion="-4.9259257" vertical-offset="263" max-vertical-offset="1188">
               <folding />
             </state>
           </provider>
@@ -107,9 +100,9 @@
         <option value="$PROJECT_DIR$/lib/modules/ocr/methods/pixel_array.js" />
         <option value="$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js" />
         <option value="$PROJECT_DIR$/njax.json" />
-        <option value="$PROJECT_DIR$/lib/modules/ocr/pixel_array.js" />
         <option value="$PROJECT_DIR$/public/templates/symbol_create_from_cluster.hjs" />
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
+        <option value="$PROJECT_DIR$/lib/modules/ocr/pixel_array.js" />
       </list>
     </option>
   </component>
@@ -367,7 +360,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -406,16 +399,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/modules/ocr/pixel_array.js</url>
-          <line>258</line>
+          <line>201</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/modules/ocr/pixel_array.js</url>
-          <line>102</line>
+          <line>103</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -730,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="16" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.0" vertical-offset="1473" max-vertical-offset="2322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/symbol_create_from_cluster.hjs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="252">
@@ -746,14 +732,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="9" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1188">
+        <state line="22" column="38" selection-start="663" selection-end="669" vertical-scroll-proportion="-4.9259257" vertical-offset="263" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="60" selection-start="3244" selection-end="3244" vertical-scroll-proportion="-36.11111" vertical-offset="825" max-vertical-offset="2520">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/ocr/pixel_array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="42" selection-start="6405" selection-end="6408" vertical-scroll-proportion="0.45070422" vertical-offset="4002" max-vertical-offset="5022">
+        <state line="127" column="42" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.34085214" vertical-offset="2150" max-vertical-offset="4662">
           <folding />
         </state>
       </provider>
