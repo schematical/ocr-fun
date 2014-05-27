@@ -12,6 +12,7 @@
                 "desc":"md",
                 "tags":"Object",
                 "data":"Object",
+                "pixels":"Object",
                 "library":{
                     "type":"ref",
                     "ref":"library",

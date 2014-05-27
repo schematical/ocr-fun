@@ -3,7 +3,7 @@
 {{> _navbar }}
 
 
-
+<img src="{{ symbol.uri }}/render" />
 
 
 {{> _footer }}

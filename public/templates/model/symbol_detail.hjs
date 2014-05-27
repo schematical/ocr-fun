@@ -29,6 +29,11 @@
         {{ symbol.data }}
     
 
+    <h3>Pixels</h3>
+    
+        {{ symbol.pixels }}
+    
+
     <h3>Library</h3>
     
         {{ symbol.library }}

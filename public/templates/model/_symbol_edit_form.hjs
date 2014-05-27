@@ -35,6 +35,13 @@
         
     
         
+            <div class="form-group">
+                <label for="pixels">pixels</label>
+                <input name="pixels" type="pixels" class="form-control" id="pixels" placeholder="Enter pixels" value="{{ symbol.pixels }}">
+            </div>
+        
+    
+        
             {{^ library }}
             <div class="form-group">
                 <label for="library">library</label>

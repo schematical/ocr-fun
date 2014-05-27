@@ -31,6 +31,10 @@
                         </th>
                     
                         <th>
+                            pixels
+                        </th>
+                    
+                        <th>
                             library
                         </th>
                     
@@ -56,6 +60,10 @@
                         
                             <td>
                                 {{ data }}
+                            </td>
+                        
+                            <td>
+                                {{ pixels }}
                             </td>
                         
                             <td>
