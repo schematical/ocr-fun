@@ -1,10 +1,11 @@
-7{{> _header }}
+{{> _header }}
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h1>IRaaS</h1>
                 <h2>Image Recognition as a Service</h2>
                 <h3>By Schematical</h3>
+                Home
             </div>
         </div>
 
