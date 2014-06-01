@@ -9,7 +9,9 @@ var config = require('./config');
 var app = njax(config);
 models(app);
 njaxBootstrap(app);
-
+app.demoUser = function(callback){
+   app.model.Account.findOne({ email: 'demo@demo.com' }, callback);
+};
 app.Ocr = require('./lib/modules/ocr');
 
 app.locals.partials._navbar = '_navbar';
