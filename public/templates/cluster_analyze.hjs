@@ -1,10 +1,11 @@
 {{> _header }}
 
 {{> _navbar }}
-
-Results:
+<img src="{{{ cluster.data_url }}}">
+    Results:
     {{# results }}
         {{ match }} - {{ symbol.namespace }}
+
         <br />
     {{/results}}
 
