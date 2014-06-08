@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="" />
+    <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" afterPath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js" afterPath="$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js" afterPath="$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/model/_gen/library.gen.js" afterPath="$PROJECT_DIR$/lib/routes/model/_gen/library.gen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/model/_gen/symbol.gen.js" afterPath="$PROJECT_DIR$/lib/routes/model/_gen/symbol.gen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +33,43 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="3258">
+            <state line="53" column="35" selection-start="1545" selection-end="1552" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="3258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster_list.hjs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/templates/model/cluster_list.hjs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1854">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.gen.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="18" selection-start="2447" selection-end="2451" vertical-scroll-proportion="-6.9259257" vertical-offset="1667" max-vertical-offset="4140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="njax.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/njax.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="27" selection-start="1022" selection-end="1036" vertical-scroll-proportion="-2.0" vertical-offset="594" max-vertical-offset="1620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster.gen.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="18" selection-start="2226" selection-end="2226" vertical-scroll-proportion="-2.680851" vertical-offset="1314" max-vertical-offset="3546">
               <folding />
             </state>
           </provider>
@@ -36,33 +79,6 @@
         <entry file="file://$PROJECT_DIR$/lib/model/image.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="36" selection-start="197" selection-end="197" vertical-scroll-proportion="27.62963" vertical-offset="890" max-vertical-offset="1512">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="65" selection-start="177" selection-end="177" vertical-scroll-proportion="0.23746702" vertical-offset="0" max-vertical-offset="379">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -107,7 +123,6 @@
         <option value="$PROJECT_DIR$/public/templates/image_analyze.hjs" />
         <option value="$PROJECT_DIR$/public/templates/index.hjs" />
         <option value="$PROJECT_DIR$/public/templates/home.hjs" />
-        <option value="$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js" />
         <option value="$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/node_modules/njax/lib/njax.js" />
@@ -115,12 +130,13 @@
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
         <option value="$PROJECT_DIR$/lib/model/image.js" />
         <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1301" />
+    <option name="x" value="65" />
     <option name="y" value="792" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
@@ -167,6 +183,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,7 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1301" y="792" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="792" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -245,10 +315,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -292,7 +362,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js</url>
-          <line>160</line>
+          <line>174</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -305,21 +375,16 @@
           <line>64</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js</url>
+          <line>89</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="56" />
+      <option name="time" value="57" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/legacy/lib/test1.out.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/legacy/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="124" selection-end="183" vertical-scroll-proportion="0.36090225" vertical-offset="0" max-vertical-offset="399" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/legacy/lib/cluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="190" column="22" selection-start="5438" selection-end="5438" vertical-scroll-proportion="0.4225352" vertical-offset="3240" max-vertical-offset="6084" />
@@ -517,20 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="40" selection-start="2880" selection-end="3179" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="3348">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/njax.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="6" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.8181818" vertical-offset="972" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/model/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -552,30 +603,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="16" selection-start="5673" selection-end="5681" vertical-scroll-proportion="0.27176782" vertical-offset="3299" max-vertical-offset="3888">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/model/image.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="426">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="3258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="197" selection-end="197" vertical-scroll-proportion="27.62963" vertical-offset="890" max-vertical-offset="1512">
           <folding />
         </state>
       </provider>
@@ -596,7 +626,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="65" selection-start="177" selection-end="177" vertical-scroll-proportion="0.23746702" vertical-offset="0" max-vertical-offset="379">
+        <state line="4" column="43" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/njax.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="27" selection-start="1022" selection-end="1036" vertical-scroll-proportion="-2.0" vertical-offset="594" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/async/lib/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="8" selection-start="4347" selection-end="4347" vertical-scroll-proportion="0.0" vertical-offset="2702" max-vertical-offset="20214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/cluster.gen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="18" selection-start="2226" selection-end="2226" vertical-scroll-proportion="-2.680851" vertical-offset="1314" max-vertical-offset="3546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/model/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="197" selection-end="197" vertical-scroll-proportion="27.62963" vertical-offset="890" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="18" selection-start="2447" selection-end="2451" vertical-scroll-proportion="-6.9259257" vertical-offset="1667" max-vertical-offset="4140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="35" selection-start="1545" selection-end="1552" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="3258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/model/cluster_list.hjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1854">
           <folding />
         </state>
       </provider>
