@@ -11,11 +11,9 @@
                 <tr>
                     
                         <th>
-                            Image
+                            bounds
                         </th>
-                        <th>
-
-                        </th>
+                    
                         <th>
                             x
                         </th>
@@ -40,15 +38,20 @@
                             results
                         </th>
                     
-
+                        <th>
+                            data_url
+                        </th>
+                    
+                        <th>
+                            pixels
+                        </th>
+                    
                 </tr>
                 {{# clusters }}
                     <tr>
+                        
                             <td>
-                                <img src="{{{ data_url }}}">
-                            </td>
-                            <td>
-                                <a href="{{ uri }}/analyze">Analyze</a>
+                                {{ bounds }}
                             </td>
                         
                             <td>
@@ -75,7 +78,14 @@
                                 {{ results }}
                             </td>
                         
-
+                            <td>
+                                {{ data_url }}
+                            </td>
+                        
+                            <td>
+                                {{ pixels }}
+                            </td>
+                        
                         
                     </tr>
                 {{/ clusters }}
