@@ -1,6 +1,7 @@
 {
-    "app_name":"n-glass",
+    "app_name":"iraas",
     "frameworks":{
+        "angular":"angular"
     },
     "models":{
         "symbol":{
