@@ -13,7 +13,7 @@ app.demoUser = function(callback){
    app.model.Account.findOne({ email: 'demo@demo.com' }, callback);
 };
 app.Ocr = require('./lib/modules/ocr');
-
+app.locals.ng_app = 'iraas';
 app.locals.partials._navbar = '_navbar';
 app.locals.partials._meta = '_meta';
 
