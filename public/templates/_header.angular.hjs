@@ -1,0 +1,16 @@
+<script src="/js/app.js"></script>
+<script src="/js/directives.js"></script>
+<script src="/js/filters.js"></script>
+
+    <script src="/js/services/symbol.js"></script>
+    <script src="/js/controllers/symbol.js"></script>
+
+    <script src="/js/services/library.js"></script>
+    <script src="/js/controllers/library.js"></script>
+
+    <script src="/js/services/cluster.js"></script>
+    <script src="/js/controllers/cluster.js"></script>
+
+    <script src="/js/services/image.js"></script>
+    <script src="/js/controllers/image.js"></script>
+
