@@ -19,6 +19,7 @@ app.locals.partials._meta = '_meta';
 
 app.locals.partials._meta_footer = '_meta_footer';
 app.locals.partials._modal = '_modal';
+app.locals.partials._header_angular = '_header.angular.hjs';
 
 var routes = require(__dirname + '/lib/routes');
 routes(app);
