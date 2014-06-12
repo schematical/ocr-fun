@@ -2,10 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/4091-1402603894960" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5394a1af6a1dfc592c12f698" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396edd2638b120515f70b1f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396eef4b6b016b7163c91cb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396ef19e0156bd41659ddf4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396ef3446f904f11610fb4b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396ef64ed9cc34b17ac8277" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396efae089aab731892240d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396effa3289aed21852fe2a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f122c3a707881964c9c1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f12c9132f9a2199cdf77" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f1377ff536af19c3d670" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f14f008eaaca196064f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f1d626d6131b1a8a0a8c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f2361c20525f1a72758b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f2531c20525f1a72758c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f264e9cdfc961a9d7c5c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f269e9cdfc961a9d7c5d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f292724c66b61a967755" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f40d58510b6a1b2aea25" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f431c620a5b21b5381cd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f4813dd861fa1bc01b95" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f4ad74c090501cc236d7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f4e6ff8f57711cb32be4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f68c8d83a402209b8362" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f819bc0e3ee920bf3ea6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f8f16d3dca4721447f75" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f9ab0b47fca3218bcf37" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396f9f9037115e621796156" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5396fa281b5f7238220610ae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539727bac1186940257c8771" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539728133eef0ebb25582857" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/53972946dd7f999a26455b1d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5397296ac1f947c9261c4f40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539729a6e6edd1ea2695c93b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/53972a9f7e69d544275a648d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/53983e604bbaba671112f534" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/53983f2714ce4cac12d22b39" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5398401ce1376437149402dd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539841ca41471e9c159384e8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5398424b9721ba0e16574314" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539846922d9f0c9d17254ae6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399e8d4510e878f149e4d62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399e8e48e7af9b914f598b3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399e92bfbe18fe0144f3ab0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399eaabb5b3e67615e09879" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399eae3eec899a5156da417" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399eb227f7ed4d9157cb789" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399eb587f7ed4d9157cb7af" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399eb80915bfca91638fd62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399f4a6b0740c531bab0d06" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/5399ff6f56683de52197bbda" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a0260737d633e2467ecdc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a05c9ff57ac58259f2f23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a08b4fde96d852739abb5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a08d4742228b0270bea76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a09184fe85eeb27dceb5d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a096f17056c2528d98cea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a09d227e148882847bb59" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a0b0bf9b1e42a292ed4ad" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/6283-1402604170615" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/6440-1402603805568" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/7417-1402604269777" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/7703-1402604304385" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/7768-1402603991394" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/9617-1402603904114" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" afterPath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/cluster.js" afterPath="$PROJECT_DIR$/lib/model/cluster.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/demo.hjs" afterPath="$PROJECT_DIR$/public/templates/demo.hjs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/index.js" afterPath="$PROJECT_DIR$/lib/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocr-fun.iws" />
@@ -29,82 +93,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="njax.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/njax.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="1638">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="594">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/image.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="16" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1764">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="middleware.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="31" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1674">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cluster.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/cluster.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="14" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="882">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s3.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/modules/s3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="13" selection-start="4401" selection-end="4410" vertical-scroll-proportion="0.0" vertical-offset="1787" max-vertical-offset="2232">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="46" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0" vertical-offset="1234" max-vertical-offset="3384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.hjs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo.hjs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s3.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../njax/lib/modules/s3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="24" selection-start="4762" selection-end="4762" vertical-scroll-proportion="0.50549453" vertical-offset="1940" max-vertical-offset="2304">
+            <state line="8" column="14" selection-start="240" selection-end="240" vertical-scroll-proportion="0.36090225" vertical-offset="0" max-vertical-offset="399">
               <folding />
             </state>
           </provider>
@@ -161,9 +153,9 @@
         <option value="$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js" />
         <option value="$PROJECT_DIR$/lib/model/cluster.js" />
         <option value="$PROJECT_DIR$/node_modules/njax/lib/modules/s3.js" />
-        <option value="$PROJECT_DIR$/public/templates/demo.hjs" />
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
         <option value="$PROJECT_DIR$/../njax/lib/modules/s3.js" />
+        <option value="$PROJECT_DIR$/public/templates/demo.hjs" />
       </list>
     </option>
   </component>
@@ -260,46 +252,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -311,14 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="njax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,76 +273,8 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_gen" />
+              <option name="myItemId" value="ocr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,7 +353,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -850,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="46" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0" vertical-offset="1234" max-vertical-offset="3384">
@@ -866,7 +735,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../njax/lib/modules/s3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="24" selection-start="4762" selection-end="4762" vertical-scroll-proportion="0.50549453" vertical-offset="1940" max-vertical-offset="2304">
+        <state line="118" column="24" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-6.814815" vertical-offset="1940" max-vertical-offset="2304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="240" selection-end="240" vertical-scroll-proportion="0.36090225" vertical-offset="0" max-vertical-offset="399">
           <folding />
         </state>
       </provider>
