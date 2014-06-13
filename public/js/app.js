@@ -7,10 +7,21 @@ angular.module(
     [
         'ngRoute',
         'ngCookies',
+        
+            'iraas.symbol.service',
+            'iraas.symbol.controller',
+        
+            'iraas.library.service',
+            'iraas.library.controller',
+        
+            'iraas.cluster.service',
+            'iraas.cluster.controller',
+        
+            'iraas.image.service',
+            'iraas.image.controller',
+        
         'iraas.filters',
-        'iraas.services',
-        'iraas.directives',
-        'iraas.controllers'
+        'iraas.directives'
     ]
 ).config(
         [

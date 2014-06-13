@@ -4,7 +4,7 @@ iraas_services.factory(
     [
         '$resource',
         function($resource){
-            return $resource('/librarys/:library/symbolss/:symbol_id', {}, {
+            return $resource('/librarys/:library/symbols/:symbol_id', {}, {
                 query: {
                     method:'GET',
                     params:{

@@ -10,7 +10,14 @@ var app = njax(config);
 models(app);
 njaxBootstrap(app);
 app.demoUser = function(callback){
-   app.model.Account.findOne({ email: 'demo@demo.com' }, callback);
+   if(app._demo_user){
+       return callback(null, app._demo_user);
+   }
+   app.model.Account.findOne({ email: 'demo@demo.com' }, function(err, demo_user){
+       if(err) return next(err);
+       app._demo_user = demo_user;
+       return callback(null, app._demo_user);
+   });
 };
 app.Ocr = require('./lib/modules/ocr');
 app.locals.ng_app = 'iraas';

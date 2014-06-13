@@ -27,3 +27,4 @@ node_modules
 public/bower_modules
 .idea
 config.js
+_tmp

@@ -1,11 +1,13 @@
 {{> _header }}
-    <div class="container">
+    <div class="container" ng-controller="DemoCtl">
         <div class="row">
             <div class="col-md-12">
                 <h1>Demo</h1>
 
             </div>
-            <img src="/njax/s3/{{ image.image }}" class="col-md-12" />
+            <div  class="col-md-12" style="position:relative;">
+                <img src="/njax/s3/{{ image.image }}" />
+            </div>
         </div>
     </div>
 {{> _footer }}
