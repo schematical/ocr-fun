@@ -36,7 +36,7 @@ angular.module('iraas', [])
 
                             var jFrame = $("<div></div>");
                             //TODO Move to CSS File
-                            jFrame.css('border', 'thin red solid');
+                            jFrame.css('border', 'thin black solid');
                             jFrame.css('position', 'absolute');
                             jFrame.css('top', top);
                             jFrame.css('left', left);
@@ -44,8 +44,14 @@ angular.module('iraas', [])
                             jFrame.css('height', height);
                             jFrame.css('background', 'url(' + cluster.data_url + ')');
                             jFrame.css('background-size', 'cover');
+                            jFrame.popover({
+                                trigger:'hover',
+                                content:"",
+                                html:true
+
+                            });
                             jDemoHolder.append(jFrame);
-                            console.log(jDemoHolder);
+                            
                         }
                 });
                 $scope.enter = function(){
