@@ -24,9 +24,10 @@ angular.module('iraas', [])
                         //Load up the bootstraped content
                         for(var i in njax_bootstrap.clusters){
                             //Render new boxes using the bounds
-                            var bounds = njax_bootstrap.clusters[i].bounds;
+                            var cluster = njax_bootstrap.clusters[i];
+                            var bounds = cluster.bounds;
 
-                            var scale = .1;
+                            var scale = .2;
                             var left = (bounds.cols.min/scale) / h_ratio;
                             var width = ((bounds.cols.max - bounds.cols.min)/scale) / h_ratio;
 
@@ -41,6 +42,8 @@ angular.module('iraas', [])
                             jFrame.css('left', left);
                             jFrame.css('width', width);
                             jFrame.css('height', height);
+                            jFrame.css('background', 'url(' + cluster.data_url + ')');
+                            jFrame.css('background-size', 'cover');
                             jDemoHolder.append(jFrame);
                             console.log(jDemoHolder);
                         }
