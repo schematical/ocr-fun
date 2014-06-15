@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/cluster.js" afterPath="$PROJECT_DIR$/lib/model/cluster.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/demo.js" afterPath="$PROJECT_DIR$/public/js/controllers/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/index.js" afterPath="$PROJECT_DIR$/lib/routes/index.js" />
     </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +39,7 @@
       <file leaf-file-name="demo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="28" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.7183099" vertical-offset="648" max-vertical-offset="1242">
+            <state line="48" column="77" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.5070422" vertical-offset="648" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -59,7 +57,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="13" selection-start="2457" selection-end="2497" vertical-scroll-proportion="-1.5925926" vertical-offset="1487" max-vertical-offset="3456">
+            <state line="85" column="53" selection-start="2490" selection-end="2497" vertical-scroll-proportion="-1.5925926" vertical-offset="1487" max-vertical-offset="3456">
               <folding />
             </state>
           </provider>
@@ -504,7 +502,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/model/cluster_list.hjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="24" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.7161804" vertical-offset="576" max-vertical-offset="1674" />
+        <state line="47" column="24" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.7161804" vertical-offset="576" max-vertical-offset="1674">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/cluster_analyze.hjs">
@@ -662,7 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="13" selection-start="2457" selection-end="2497" vertical-scroll-proportion="-1.5925926" vertical-offset="1487" max-vertical-offset="3456">
+        <state line="85" column="53" selection-start="2490" selection-end="2497" vertical-scroll-proportion="-1.5925926" vertical-offset="1487" max-vertical-offset="3456">
           <folding />
         </state>
       </provider>
@@ -676,7 +676,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="28" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.7183099" vertical-offset="648" max-vertical-offset="1242">
+        <state line="48" column="77" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.5070422" vertical-offset="648" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>

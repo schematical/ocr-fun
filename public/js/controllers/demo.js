@@ -46,12 +46,13 @@ angular.module('iraas', [])
                             jFrame.css('background-size', 'cover');
                             jFrame.popover({
                                 trigger:'hover',
-                                content:"",
-                                html:true
+                                content:"<a href='" + cluster.uri + "/analyze'>Analyse</a>",
+                                html:true,
+                                delay: { show: 100, hide: 1000 }
 
                             });
                             jDemoHolder.append(jFrame);
-                            
+
                         }
                 });
                 $scope.enter = function(){
