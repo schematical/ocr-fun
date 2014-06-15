@@ -1,4 +1,4 @@
-var iraas_services = angular.module('iraas.cluster.service', ['ngResource']);
+var iraas_services = angular.module('iraas', ['ngResource']);
 iraas_services.factory(
     'Cluster',
     [

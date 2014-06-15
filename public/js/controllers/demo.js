@@ -2,12 +2,14 @@
 
 /* Controllers */
 
-angular.module('iraas', [])
+angular.module('iraas', [ ])
     .controller(
         'DemoCtl',
         [
+
             '$scope',
-            function($scope) {
+            'Cluster',
+            function($scope, Cluster) {
                 //Get image dimensions
                 var jImage = $('#img-demo');
 
