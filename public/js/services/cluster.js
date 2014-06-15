@@ -4,11 +4,12 @@ iraas_services.factory(
     [
         '$resource',
         function($resource){
-            return $resource('/images/:image/clusterss/:cluster_id', {}, {
+            return $resource('/images/:image/clusters/:cluster_id', {}, {
                 query: {
                     method:'GET',
                     params:{
-                        phoneId:'phones'
+                        image:'image',
+                        cluster_id:'cluster_id'
                     },
                     isArray:true
                 }
