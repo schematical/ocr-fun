@@ -5,8 +5,8 @@
                 <h1>Demo</h1>
 
             </div>
-            <div  class="col-md-12" style="position:relative;">
-                <img src="/njax/s3/{{ image.image }}" />
+            <div  id='div-demo-holder' class="col-md-12" style="position:relative;">
+                <img id="img-demo" src="/njax/s3/{{ image.image }}" style="width:100%;"/>
             </div>
         </div>
     </div>
