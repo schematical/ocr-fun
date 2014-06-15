@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('iraas', [ ])
+angular.module('iraas', [ 'iraas.cluster.service'])
     .controller(
         'DemoCtl',
         [

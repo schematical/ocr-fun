@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" afterPath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/cluster.js" afterPath="$PROJECT_DIR$/public/js/services/cluster.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/demo.js" afterPath="$PROJECT_DIR$/public/js/controllers/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +40,7 @@
       <file leaf-file-name="demo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="60" selection-end="60" vertical-scroll-proportion="0.17821783" vertical-offset="0" max-vertical-offset="1296">
+            <state line="4" column="49" selection-start="83" selection-end="83" vertical-scroll-proportion="0.17821783" vertical-offset="0" max-vertical-offset="1296">
               <folding />
             </state>
           </provider>
@@ -60,7 +58,7 @@
       <file leaf-file-name="cluster.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/services/cluster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="14" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+            <state line="0" column="36" selection-start="36" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -79,15 +77,6 @@
         <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.925926" vertical-offset="371" max-vertical-offset="1818">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cluster.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/cluster.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="26" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -794,30 +783,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/cluster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="26" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/njax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="6" selection-start="768" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="649" max-vertical-offset="3240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.925926" vertical-offset="371" max-vertical-offset="1818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/cluster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
@@ -836,9 +804,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/model/cluster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="26" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.6980198" vertical-offset="456" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="-2.925926" vertical-offset="371" max-vertical-offset="1818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/cluster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="60" selection-end="60" vertical-scroll-proportion="0.17821783" vertical-offset="0" max-vertical-offset="1296">
+        <state line="4" column="49" selection-start="83" selection-end="83" vertical-scroll-proportion="0.17821783" vertical-offset="0" max-vertical-offset="1296">
           <folding />
         </state>
       </provider>
