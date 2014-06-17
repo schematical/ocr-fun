@@ -21,13 +21,16 @@ angular.module(
             'iraas.image.controller',
         
         'iraas.filters',
-        'iraas.directives'
+        'iraas.directives',
+        
+        'iraas.demo'
     ]
 ).config(
         [
             '$routeProvider',
-            function($routeProvider) {
-
+            '$interpolateProvider',
+            function($routeProvider, $interpolateProvider){
+                $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
                 $routeProvider.when('/', { templateUrl: 'partials/welcome.html', controller: 'WelcomeCtl'});
                 $routeProvider.when('/home', { templateUrl: 'partials/home.html', controller: 'HomeCtl'});
                 $routeProvider.when('/draw', { templateUrl: 'partials/draw.html', controller: 'DrawCtl'});

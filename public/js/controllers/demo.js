@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('iraas', [ 'iraas.cluster.service'])
+angular.module('iraas.demo', [ 'iraas.cluster.service'])
     .controller(
         'DemoCtl',
         [
@@ -12,10 +12,11 @@ angular.module('iraas', [ 'iraas.cluster.service'])
             function($scope, Cluster) {
                 //Get image dimensions
                 var jImage = $('#img-demo');
+                $scope.message = 'xyz';
 
                 var jDemoHolder = $('#div-demo-holder');
                 $scope.clusters = [];
-                $scope.add_frame = function($scope){
+                $scope.add_frame = function(){
 
                     var pic_real_width = this.width;   // Note: $(this).width() will not
                     var pic_real_height = this.height; // work for in memory images.
@@ -56,18 +57,16 @@ angular.module('iraas', [ 'iraas.cluster.service'])
 
                     }
 
-
+                    $scope.$apply(function($scope){
+                        console.log($scope);
+                    });
                 }
 
 
 
                 $("<img/>") // Make in memory copy of image to avoid css issues
                     .attr("src", jImage.attr("src"))
-                    .load(function(){
-                        $scope.$apply(
-                            $scope.add_frame.apply(this)
-                        );
-                    });
+                    .load($scope.add_frame);
                 $scope.enter = function(){
 
                    alert("Enter?");
