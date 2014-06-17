@@ -38,14 +38,26 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
 
                         //TODO Move to CSS File
                         cluster.pos = {
-                            top:top,
-                            left:left,
-                            width:width,
-                            height:height
+                            top:Math.round(top),
+                            left:Math.round(left),
+                            width:Math.round(width),
+                            height:Math.round(height)
+                        }
+                        cluster.mouseover = function(){
+                            alert('x');
+                        }
+                        cluster.click = function(){
+                            alert('click');
                         }
 
                         $scope.clusters.push(cluster);
-/*
+
+
+
+                    }
+
+                    $scope.$apply(function($scope){
+                        console.log($scope);
                         jFrame.popover({
                             trigger:'hover',
                             content:"<a href='" + cluster.uri + "/analyze'>Analyse</a>",
@@ -53,12 +65,7 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                             delay: { show: 100, hide: 1000 }
 
                         });
-                        jDemoHolder.append(jFrame);*/
 
-                    }
-
-                    $scope.$apply(function($scope){
-                        console.log($scope);
                     });
                 }
 
