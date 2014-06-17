@@ -1,5 +1,5 @@
 {{> _header }}
-    <div class="container" ng-controller="DemoCtl">
+    <div id="div-demo-main" class="container" ng-controller="DemoCtl">
         <div class="row">
             <div class="col-md-12">
                 <h1>Demo</h1>
@@ -9,6 +9,15 @@
                 <div  id='div-demo-holder'  style="width:100%; position:relative;">
                     <img id="img-demo" src="/njax/s3/{{ image.image }}" style="width:100%; position:absolute;right:0Px; bottom:0Px; top:0px; left:0px;"/>
                 </div>
+                <div class='div-cluster-frame' ng-repeat="cluster in clusters" style="
+                        top:{{ cluster.pos.top}};
+                        left: {{ cluster.pos.left}};
+                        width: {{ cluster.pos.width }};
+                        height: {{ cluster.pos.height }};
+                        background: url('{{ cluster.data_url }}');
+                ">
+                   Data Url: {{ cluster.uri}}
+</div>
             </div>
         </div>
     </div>
