@@ -54,13 +54,22 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                             this.menu_display = 'none';
                         }
                         cluster.click = function(){
+                            var _cluster = this;
                             //nothing
                             Cluster.analyze(
                                 {
                                     'image': njax_bootstrap.image._id,
                                     'cluster_id':this._id
-                                },{'Id':1});
+                                },{}).$then(function(results){
+                                    _cluster.results = results;
+                                    $scope.$apply(function($scope){
+                                        //console.log($scope);
+                                    });
+                                });
+
+
                         }
+
 
                         $scope.clusters.push(cluster);
 
@@ -69,7 +78,7 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                     }
 
                     $scope.$apply(function($scope){
-                        console.log($scope);
+                        //console.log($scope);
                     });
                 }
 

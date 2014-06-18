@@ -23,6 +23,9 @@
                             display:{[{ cluster.menu_display }]};
 
                         ">
+                            <p ng-repeate="result in cluster.results">
+                                {[{ result.match }]}% -{[{ result.symbol.name }]}
+                            </p>
                             <div class="input-group">
                                 <a href="#" class="btn btn-default" ng-click="cluster.click()">
                                     Create Symbol

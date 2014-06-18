@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/index.js" afterPath="$PROJECT_DIR$/lib/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/demo.hjs" afterPath="$PROJECT_DIR$/public/templates/demo.hjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/demo.js" afterPath="$PROJECT_DIR$/public/js/controllers/demo.js" />
     </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="demo.hjs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="92" selection-start="579" selection-end="579" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="702">
+            <state line="27" column="32" selection-start="1512" selection-end="1512" vertical-scroll-proportion="-10.666667" vertical-offset="90" max-vertical-offset="756">
               <folding>
                 <element signature="e#1102#1325#0" expanded="true" />
               </folding>
@@ -36,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="-40.925926" vertical-offset="173" max-vertical-offset="1674">
+            <state line="62" column="39" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.54376656" vertical-offset="911" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
@@ -54,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="55" selection-start="3222" selection-end="3222" vertical-scroll-proportion="0.7772277" vertical-offset="1558" max-vertical-offset="3510">
+            <state line="104" column="55" selection-start="3222" selection-end="3222" vertical-scroll-proportion="0.0" vertical-offset="1558" max-vertical-offset="3510">
               <folding />
             </state>
           </provider>
@@ -165,12 +166,12 @@
         <option value="$PROJECT_DIR$/public/templates/_meta.hjs" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/public/templates/demo.hjs" />
-        <option value="$PROJECT_DIR$/public/js/controllers/demo.js" />
         <option value="$PROJECT_DIR$/public/js/services/cluster.js" />
         <option value="$PROJECT_DIR$/node_modules/njax/lib/modules/api.js" />
         <option value="$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js" />
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/templates/demo.hjs" />
+        <option value="$PROJECT_DIR$/public/js/controllers/demo.js" />
       </list>
     </option>
   </component>
@@ -769,15 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="92" selection-start="579" selection-end="579" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="702">
-          <folding>
-            <element signature="e#1102#1325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="0" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1656">
@@ -795,13 +787,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="-40.925926" vertical-offset="173" max-vertical-offset="1674">
           <folding />
         </state>
       </provider>
@@ -836,7 +821,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="55" selection-start="3222" selection-end="3222" vertical-scroll-proportion="0.7772277" vertical-offset="1558" max-vertical-offset="3510">
+        <state line="104" column="55" selection-start="3222" selection-end="3222" vertical-scroll-proportion="0.0" vertical-offset="1558" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="32" selection-start="1512" selection-end="1512" vertical-scroll-proportion="-10.666667" vertical-offset="90" max-vertical-offset="756">
+          <folding>
+            <element signature="e#1102#1325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="39" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.54376656" vertical-offset="911" max-vertical-offset="1836">
           <folding />
         </state>
       </provider>
