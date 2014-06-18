@@ -70,14 +70,6 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
 
                     $scope.$apply(function($scope){
                         console.log($scope);
-                        jFrame.popover({
-                            trigger:'hover',
-                            content:"<a href='" + cluster.uri + "/analyze'>Analyse</a>",
-                            html:true,
-                            delay: { show: 100, hide: 1000 }
-
-                        });
-
                     });
                 }
 
