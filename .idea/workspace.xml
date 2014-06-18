@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/demo.js" afterPath="$PROJECT_DIR$/public/js/controllers/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/services/cluster.js" afterPath="$PROJECT_DIR$/public/js/services/cluster.js" />
     </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.33333334" vertical-offset="1145" max-vertical-offset="1674">
+            <state line="71" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="-40.925926" vertical-offset="173" max-vertical-offset="1674">
               <folding />
             </state>
           </provider>
@@ -66,8 +66,11 @@
       <file leaf-file-name="cluster.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/services/cluster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="666">
-              <folding />
+            <state line="22" column="38" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="666">
+              <folding>
+                <marker date="1403108723130" expanded="true" signature="121:1044" placeholder="[...]" />
+                <marker date="1403108723130" expanded="true" signature="171:1038" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +78,43 @@
       <file leaf-file-name="middleware.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1818">
+            <state line="83" column="0" selection-start="2568" selection-end="2568" vertical-scroll-proportion="-14.074074" vertical-offset="1114" max-vertical-offset="1980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/modules/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="28" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.3785166" vertical-offset="1076" max-vertical-offset="4824">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="njax.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/njax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="31" selection-start="3777" selection-end="3779" vertical-scroll-proportion="-4.6296296" vertical-offset="2395" max-vertical-offset="3240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pixel_by_pixel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="0" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1656">
               <folding />
             </state>
           </provider>
@@ -124,7 +163,6 @@
         <option value="$PROJECT_DIR$/public/templates/model/cluster_list.hjs" />
         <option value="$PROJECT_DIR$/lib/modules/ocr/index.js" />
         <option value="$PROJECT_DIR$/lib/modules/ocr/cluster.js" />
-        <option value="$PROJECT_DIR$/node_modules/njax/lib/modules/api.js" />
         <option value="$PROJECT_DIR$/njax.json" />
         <option value="$PROJECT_DIR$/node_modules/njax/public/templates/_footer.hjs" />
         <option value="$PROJECT_DIR$/node_modules/njax/lib/modules/s3.js" />
@@ -136,14 +174,15 @@
         <option value="$PROJECT_DIR$/public/js/services/symbol.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/model/cluster.js" />
-        <option value="$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js" />
         <option value="$PROJECT_DIR$/public/templates/_meta.hjs" />
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/public/templates/demo.hjs" />
-        <option value="$PROJECT_DIR$/public/js/services/cluster.js" />
         <option value="$PROJECT_DIR$/public/js/controllers/demo.js" />
+        <option value="$PROJECT_DIR$/public/js/services/cluster.js" />
+        <option value="$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js" />
+        <option value="$PROJECT_DIR$/node_modules/njax/lib/modules/api.js" />
       </list>
     </option>
   </component>
@@ -232,50 +271,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocr-fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,6 +383,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="njax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -515,6 +536,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -525,7 +547,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -552,16 +573,6 @@
           <url>file://$PROJECT_DIR$/lib/model/cluster.js</url>
           <line>20</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js</url>
-          <line>56</line>
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/routes/model/_gen/image.gen.js</url>
@@ -603,23 +614,16 @@
           <line>83</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="67" />
+      <option name="time" value="70" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/symbol_create_from_cluster.hjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="252" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/image_analyze.hjs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="89" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="630" />
@@ -717,11 +721,6 @@
         <state line="209" column="23" selection-start="6264" selection-end="6264" vertical-scroll-proportion="-12.962963" vertical-offset="3412" max-vertical-offset="5778" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/modules/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="79" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="4716" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/services/image.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414" />
@@ -808,21 +807,9 @@
         <state line="8" column="16" selection-start="250" selection-end="250" vertical-scroll-proportion="0.08450704" vertical-offset="108" max-vertical-offset="3384" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/njax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="6" selection-start="768" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="649" max-vertical-offset="3240" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/cluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="26" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.6980198" vertical-offset="456" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1818">
           <folding />
         </state>
       </provider>
@@ -883,16 +870,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/ocr/methods/pixel_by_pixel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/services/cluster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="666">
+        <state line="22" column="38" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="666">
+          <folding>
+            <marker date="1403108723130" expanded="true" signature="121:1044" placeholder="[...]" />
+            <marker date="1403108723130" expanded="true" signature="171:1038" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/njax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="31" selection-start="3777" selection-end="3779" vertical-scroll-proportion="-4.6296296" vertical-offset="2395" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="404">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.33333334" vertical-offset="1145" max-vertical-offset="1674">
+        <state line="71" column="44" selection-start="2830" selection-end="2830" vertical-scroll-proportion="-40.925926" vertical-offset="173" max-vertical-offset="1674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="2568" selection-end="2568" vertical-scroll-proportion="-14.074074" vertical-offset="1114" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/modules/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="28" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.3785166" vertical-offset="1076" max-vertical-offset="4824">
           <folding />
         </state>
       </provider>
