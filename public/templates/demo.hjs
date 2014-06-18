@@ -8,13 +8,27 @@
             <div class="col-md-12">
                 <div id='div-demo-holder'  style="width:100%; position:relative;">
                     <img id="img-demo" src="/njax/s3/{{ image.image }}" style="width:100%; position:absolute;right:0Px; bottom:0Px; top:0px; left:0px;"/>
-                    <div class='div-cluster-frame' ng-repeat="cluster in clusters" ng-mouseover="cluster.mouseover()"  ng-click="cluster.click()" style="
-                        top: {[{ cluster.pos.top}]}Px;
-                        left: {[{ cluster.pos.left}]}Px;
-                        width: {[{ cluster.pos.width }]}Px;
-                        height: {[{ cluster.pos.height }]}Px;
-                        background-image: url('{[{ cluster.data_url }]}');
-                    ">
+                    <div  ng-repeat="cluster in clusters"  ng-mouseleave="cluster.mouseleave()" >
+                        <div class='div-cluster-frame' ng-mouseover="cluster.mouseover()"  style="
+                            top: {[{ cluster.pos.top}]}Px;
+                            left: {[{ cluster.pos.left}]}Px;
+                            width: {[{ cluster.pos.width }]}Px;
+                            height: {[{ cluster.pos.height }]}Px;
+                            background-image: url('{[{ cluster.data_url }]}');
+                        "></div>
+
+                        <div class='div-cluster-menu'  style="
+                            top: {[{ cluster.pos.bottom}]}Px;
+                            left: {[{ cluster.pos.left}]}Px;
+                            display:{[{ cluster.menu_display }]};
+
+                        ">
+                            <div class="input-group">
+                                <a href="#" class="btn btn-default" ng-click="cluster.click()">
+                                    Create Symbol
+                                </a>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

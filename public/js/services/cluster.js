@@ -6,7 +6,10 @@ iraas_services.factory(
         function($resource){
             return $resource(
                 '/images/:image/clusters/:cluster_id',
-                {},
+                {
+                    'image': "@image",
+                    'cluster_id': "@cluster_id"
+                },
                 {
                     query: {
                         method:'GET',
@@ -19,7 +22,7 @@ iraas_services.factory(
                     "analyze": {
                         'url':'/images/:image/clusters/:cluster_id/analyze',
                         'method': 'GET',
-                        'params': {/*'reviews_only': "true"*/},
+                        'params': {},
                         isArray: true
                     }
                 }

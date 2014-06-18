@@ -41,13 +41,25 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                             top:Math.round(top),
                             left:Math.round(left),
                             width:Math.round(width),
-                            height:Math.round(height)
+                            height:Math.round(height),
+                            bottom: Math.round(top + height)
                         }
+                        cluster.menu_display = 'none';
                         cluster.mouseover = function(){
-                            alert('x');
+                            //Expand menu
+                            this.menu_display = 'block';
+                        }
+                        cluster.mouseleave = function(){
+                            //Hide menu
+                            this.menu_display = 'none';
                         }
                         cluster.click = function(){
-                            alert('click');
+                            //nothing
+                            Cluster.analyze(
+                                {
+                                    'image': njax_bootstrap.image._id,
+                                    'cluster_id':this._id
+                                },{'Id':1});
                         }
 
                         $scope.clusters.push(cluster);
