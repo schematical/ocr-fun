@@ -2,13 +2,14 @@
 
 /* Controllers */
 
-angular.module('iraas.demo', [ 'iraas.cluster.service'])
+angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
     .controller(
         'DemoCtl',
         [
 
             '$scope',
             'Cluster',
+            'Symbol',
             function($scope, Cluster) {
                 //Get image dimensions
                 var jImage = $('#img-demo');
@@ -47,6 +48,10 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                         cluster.menu_display = 'none';
                         cluster.create_symbol = function(){
                             //Pop up modal
+                        }
+                        cluster.save_symbol = function(){
+
+
                         }
 
                         cluster.mouseleave = function(){
