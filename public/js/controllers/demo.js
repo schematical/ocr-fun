@@ -56,15 +56,25 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                         cluster.click = function(){
                             var _cluster = this;
                             //nothing
-                            Cluster.analyze(
+                            _cluster.results = Cluster.analyze(
                                 {
                                     'image': njax_bootstrap.image._id,
                                     'cluster_id':this._id
-                                },{}).$then(function(results){
+                                },
+                                function(results){
+                                    _cluster.state = 'analized';
                                     _cluster.results = results;
-                                    $scope.$apply(function($scope){
+                                    /*_cluster.results = [
+                                        { match: 100},
+                                        { match: 99 }
+                                    ];*/
+                                    /*for(var i in _cluster.results){
+                                        if(i == )
+                                        console.log(i, _cluster.results[i]);
+                                    }*/
+                                    /*$scope.$apply(function($scope){
                                         //console.log($scope);
-                                    });
+                                    });*/
                                 });
 
 
