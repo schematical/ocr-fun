@@ -45,15 +45,21 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                             bottom: Math.round(top + height)
                         }
                         cluster.menu_display = 'none';
-                        cluster.mouseover = function(){
-                            //Expand menu
-                            this.menu_display = 'block';
+                        cluster.create_symbol = function(){
+                            //Pop up modal
                         }
+
                         cluster.mouseleave = function(){
                             //Hide menu
                             this.menu_display = 'none';
                         }
-                        cluster.click = function(){
+                        cluster.mouseover = function(){
+                            //Expand menu
+                            this.menu_display = 'block';
+                            if(this.results){
+                                return;
+                            }
+                            this.state = 'Loading..';
                             var _cluster = this;
                             //nothing
                             _cluster.results = Cluster.analyze(
@@ -64,17 +70,7 @@ angular.module('iraas.demo', [ 'iraas.cluster.service'])
                                 function(results){
                                     _cluster.state = 'analized';
                                     _cluster.results = results;
-                                    /*_cluster.results = [
-                                        { match: 100},
-                                        { match: 99 }
-                                    ];*/
-                                    /*for(var i in _cluster.results){
-                                        if(i == )
-                                        console.log(i, _cluster.results[i]);
-                                    }*/
-                                    /*$scope.$apply(function($scope){
-                                        //console.log($scope);
-                                    });*/
+
                                 });
 
 

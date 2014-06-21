@@ -5,4 +5,7 @@
 }
 .div-cluster-menu{
     position:absolute;
+    z-index:100;
+    padding:10Px;
+    background: gray;
 }
