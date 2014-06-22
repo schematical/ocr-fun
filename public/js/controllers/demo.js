@@ -10,7 +10,7 @@ angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
             '$scope',
             'Cluster',
             'Symbol',
-            function($scope, Cluster) {
+            function($scope, Cluster, Symbol) {
                 //Get image dimensions
                 var jImage = $('#img-demo');
                 $scope.message = 'xyz';
@@ -48,10 +48,26 @@ angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
                         cluster.menu_display = 'none';
                         cluster.create_symbol = function(){
                             //Pop up modal
+                            $scope.cluster = this;
+                            $scope.symbol = new Symbol({
+                                library:'default'
+                            });
                             $('#div-create-symbol').modal('show')
                         }
                         cluster.save_symbol = function(){
+                            $scope.symbol.save(function(){
+                                console.log("Saved... attempting to create_from_cluster");
+                                $scope.symbol.create_from_cluster(
+                                    {
+                                        image:njax_bootstrap.image._id,
+                                        cluster:this._id
+                                    },
+                                    function(){
+                                        console.log("create_from_cluster finished...");
+                                    }
+                                );
 
+                            })
 
                         }
 

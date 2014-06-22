@@ -55,7 +55,7 @@
 
                         <div class="form-group">
                             <label for="namespace">namespace</label>
-                            <input name="namespace" type="namespace" class="form-control" id="namespace" placeholder="Enter namespace" value="{{ symbol.namespace }}">
+                            <input name="namespace" ng-value="symbol.namespace" type="namespace" class="form-control" id="namespace" placeholder="Enter namespace" value="{{ symbol.namespace }}">
                         </div>
 
 

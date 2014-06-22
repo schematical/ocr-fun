@@ -22,6 +22,7 @@ iraas_services.factory(
                         'url': '//' + njax_bootstrap.api_url + '/librarys/:library/symbols/:symbol/create_from_cluster',
                         'method': 'POST',
                         'params': {
+                            image:'image',
                             cluster:'cluster'
                         },
                         isArray: true
