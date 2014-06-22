@@ -48,6 +48,7 @@ angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
                         cluster.menu_display = 'none';
                         cluster.create_symbol = function(){
                             //Pop up modal
+                            $('#div-create-symbol').modal('show')
                         }
                         cluster.save_symbol = function(){
 
