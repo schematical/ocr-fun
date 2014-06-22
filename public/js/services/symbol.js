@@ -25,7 +25,7 @@ iraas_services.factory(
                             image:'image',
                             cluster:'cluster'
                         },
-                        isArray: true
+                        isArray: false
                     }
                 }
             );
