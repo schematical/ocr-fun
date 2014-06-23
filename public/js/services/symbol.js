@@ -5,10 +5,10 @@ iraas_services.factory(
         '$resource',
         function($resource){
             return $resource(
-                '/librarys/:library/symbols/:symbol_id',
+                '//' + njax_bootstrap.api_url + '/librarys/:library/symbols/:symbol_id',
                 {
                     library:'@library',
-                    symbol_id:'@symbol_id'
+                    symbol:'@id'
                 },
                 {
                     query: {
