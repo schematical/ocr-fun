@@ -1,6 +1,8 @@
 
 #Image Recognition as a Service(IRaaS)
+_NOTE: This is a work in progress and has not yet been proof read_
 
+If you have read my article called [What SaaS will be valuable in the upcoming Google Glass era?](http://shiporgetoffthepot.com/what-saas-will-be-valuable-in-the-upcoming-google-glass-era/) then you know I think Image Recognition as a Service(IRaaS) could be a big thing in the future. This discusses some strategies to simplify the process in the beginning, a couple of examples, some technical notes, and then eventually the bigger picture.
 
 
 ##Basic Usage:
@@ -56,7 +58,7 @@ Adding a little logic can go a long way. For example if we know the following ab
 * It is the letter A
 * It is 45 degrees rotated from horizontal
 * It is scaled 55% smaller than the symbol in memory
-* It is Times new Roman font
+* It is Times New Roman font
 * It is blue
 
 Then we maybe able to speed up our process of elimination by
@@ -87,6 +89,11 @@ It would be a bit different here though. Each app would have a list of symbols t
 The intent might just render a small on screen menu like in our light switch example.
 
 ###Public vs Private Symbols:
+Since you would want to the database of recognisable symbols/objects in your home private and other organizations like a cities tourist board or an large corporate advertiser would want their symbols to be public we would need to find a way to distinguish.
+
+In reality this will be done on an app by app level. Each app would know your symbols and those that they want publically identifiable.
+
+Additionally its obvious we should probably release a massive database of symbols. Each symbol could be location gated so we don’t end up recognizing the eiffel tower while when your standing in time square.
 
 
 ###Disqualifying Rules/Processing Improvements:
@@ -104,7 +111,7 @@ So we can always be passively monitoring what these are doing.
 
 Or perhaps not always. Perhaps we could establishing that the Wearable AR Device should be listening by holding up both hands in a gesture that triggers the hand monitoring.
 
-Imagine you could turn pretty much any surface into a virtual key board just by looking at it and placing your hands on it in a certain gesture.
+Imagine you could turn pretty much any surface into a virtual keyboard just by looking at it and placing your hands on it in a certain gesture.
 
 ##Examples:
 ###Navigation Example:
@@ -142,6 +149,9 @@ Basically we can use brute force machine learning to create symbols and disquali
 We could supplement my genetic learning algorithms with by crowd sourcing identifying the objects in an image. How would we do this?
 Simple, we already are. People are tagging images all day every day. Facebook started identifying peoples faces in images and now have Facial Recognition technology that learned from the users tags. Flicker, Twitter, Google images all are already doing it.
 If nothing else I could write a bot that scans and learns on its own but it would probably be better to some how barter for the data from an existing data source.
+
+##Conclusion(for now):
+This is a work in progress and I have high hopes for this project. Let me know if you are interested in working with me to bring this to the masses.
 
 
 
