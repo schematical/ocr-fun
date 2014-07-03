@@ -23,9 +23,11 @@ iraas_services.factory(
                         'method': 'POST',
                         'params': {
                             image:'image',
-                            cluster:'cluster'
+                            cluster:'cluster',
+                            name:'name',
+                            namespace:'namespace'
                         },
-                        isArray: false
+                        isArray: true
                     }
                 }
             );
