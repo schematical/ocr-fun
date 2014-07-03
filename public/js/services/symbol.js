@@ -8,7 +8,9 @@ iraas_services.factory(
                 '//' + njax_bootstrap.api_url + '/librarys/:library/symbols/:symbol_id',
                 {
                     library:'@library',
-                    symbol:'@id'
+                    symbol:'@id',
+                    namespace:'@namespace',
+                    name:'@name'
                 },
                 {
                     query: {
