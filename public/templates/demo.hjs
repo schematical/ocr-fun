@@ -68,7 +68,6 @@
                             </div>
 
 
-
                             <textarea id="desc" ng-value="symbol.desc" name="desc" class="form-control" rows="3">{{ symbol.desc}}</textarea>
                         </form>
                     </div>

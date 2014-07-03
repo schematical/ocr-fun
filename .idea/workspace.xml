@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" afterPath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/demo.hjs" afterPath="$PROJECT_DIR$/public/templates/demo.hjs" />
     </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,81 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="demo.hjs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="30" selection-start="3872" selection-end="3872" vertical-scroll-proportion="0.0" vertical-offset="1077" max-vertical-offset="1728">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbol.gen.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/symbol.gen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="17" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0" vertical-offset="1733" max-vertical-offset="3978">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s3.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/modules/s3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="13" selection-start="4401" selection-end="4410" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2304">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="0" selection-start="11932" selection-end="11932" vertical-scroll-proportion="0.93877554" vertical-offset="2274" max-vertical-offset="2934">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="async.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/async/lib/async.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="609" column="0" selection-start="18934" selection-end="18934" vertical-scroll-proportion="0.0" vertical-offset="10962" max-vertical-offset="20322">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="22" selection-start="3931" selection-end="3931" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="3510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbol.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/services/symbol.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="702">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pixel_array.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/modules/ocr/pixel_array.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="27" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="4734">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="symbol.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/model/symbol.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middleware.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
+      <file leaf-file-name="symbol.gen.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/symbol.gen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1980">
+            <state line="105" column="17" selection-start="3151" selection-end="3151" vertical-scroll-proportion="4.183099" vertical-offset="108" max-vertical-offset="3978">
               <folding />
             </state>
           </provider>
@@ -174,7 +100,6 @@
         <option value="$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/lib/model/symbol.js" />
-        <option value="$PROJECT_DIR$/public/templates/demo.hjs" />
         <option value="$PROJECT_DIR$/public/js/controllers/demo.js" />
         <option value="$PROJECT_DIR$/public/js/services/cluster.js" />
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
@@ -182,12 +107,13 @@
         <option value="$PROJECT_DIR$/public/js/services/symbol.js" />
         <option value="$PROJECT_DIR$/lib/routes/model/_gen/symbol.gen.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/public/templates/demo.hjs" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="-2667" />
     <option name="y" value="792" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
@@ -233,6 +159,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,8 +311,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="792" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-2667" y="792" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -317,7 +323,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -611,16 +617,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="30" selection-start="3872" selection-end="3872" vertical-scroll-proportion="0.0" vertical-offset="1077" max-vertical-offset="1728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="22" selection-start="3931" selection-end="3931" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="3510">
+        <state line="127" column="22" selection-start="3931" selection-end="3931" vertical-scroll-proportion="1.5808936" vertical-offset="1260" max-vertical-offset="3510">
           <folding />
         </state>
       </provider>
@@ -630,23 +629,16 @@
         <state line="52" column="7" selection-start="854" selection-end="854" vertical-scroll-proportion="0.33168316" vertical-offset="802" max-vertical-offset="3438" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/model/symbol.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/services/symbol.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+        <state line="4" column="20" selection-start="141" selection-end="141" vertical-scroll-proportion="0.009433962" vertical-offset="66" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/ocr/pixel_array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="4734">
+        <state line="25" column="27" selection-start="760" selection-end="760" vertical-scroll-proportion="0.24653313" vertical-offset="290" max-vertical-offset="4734">
           <folding />
         </state>
       </provider>
@@ -665,26 +657,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/symbol.gen.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="17" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0" vertical-offset="1733" max-vertical-offset="3978">
+        <state line="148" column="0" selection-start="11203" selection-end="11932" vertical-scroll-proportion="0.5714286" vertical-offset="2328" max-vertical-offset="2934">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/modules/s3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="13" selection-start="4401" selection-end="4410" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2304">
+        <state line="110" column="13" selection-start="4401" selection-end="4410" vertical-scroll-proportion="1.9055375" vertical-offset="810" max-vertical-offset="2304">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="0" selection-start="11932" selection-end="11932" vertical-scroll-proportion="0.93877554" vertical-offset="2274" max-vertical-offset="2934">
+        <state line="68" column="0" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.91133004" vertical-offset="489" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/model/symbol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/model/_gen/symbol.gen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="17" selection-start="3151" selection-end="3151" vertical-scroll-proportion="4.183099" vertical-offset="108" max-vertical-offset="3978">
           <folding />
         </state>
       </provider>
