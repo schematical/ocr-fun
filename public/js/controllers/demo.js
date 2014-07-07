@@ -54,14 +54,14 @@ angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
                             });
                             $('#div-create-symbol').modal('show')
                         }
-                        cluster.save_symbol = function(){
+                        cluster.save_symbol = function(symbol){
                             var _cluster = this;
                             //$scope.symbol.$save(function(){
                                 console.log("Saved... attempting to create_from_cluster");
                                 $scope.symbol.$create_from_cluster(
                                     {
-                                        namespace:$scope.symbol.namespace,
-                                        name:$scope.symbol.name,
+                                        namespace:$scope.namespace,
+                                        name:$scope.name,
                                         image:njax_bootstrap.image._id,
                                         cluster:_cluster._id
                                     },
