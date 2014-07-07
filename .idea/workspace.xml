@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982e03b3-53e1-45f7-826d-70beed021027" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/1705-1402607060303" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/2249-1402604580846" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/2330-1402606874174" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/4946-1402605071806" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a0c1df395e66c2a085036" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a13751cec0ffb2d805a89" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a13d4ca96026c2ed19454" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a14254a0db29e2ebed4bb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a1451e73945c42ef0c842" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a146f850c33e22e239a35" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a149bee86fd082f55dd60" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a1515ee86fd082f55dd86" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a15bf33715b1e306e6cba" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a15cf7ef3a83430b33210" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/539a160a8ed37d6830f9bfbe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/9164-1402607120582" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_tmp/9764-1402606753789" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" afterPath="$PROJECT_DIR$/lib/modules/ocr/test1.out.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/model/_gen/image_gen.js" afterPath="$PROJECT_DIR$/lib/model/_gen/image_gen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/ocr/index.js" afterPath="$PROJECT_DIR$/lib/modules/ocr/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes/index.js" afterPath="$PROJECT_DIR$/lib/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocr-fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,67 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="symbol.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/routes/model/symbol.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/controllers/demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="47" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2394">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbol.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/controllers/symbol.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="24" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.33168316" vertical-offset="1018" max-vertical-offset="3834">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbol.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/services/symbol.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s3.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="s3.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../njax/lib/modules/s3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="55" selection-start="2493" selection-end="2500" vertical-scroll-proportion="-6.4814816" vertical-offset="815" max-vertical-offset="2700">
+            <state line="98" column="62" selection-start="4153" selection-end="4153" vertical-scroll-proportion="0.29539952" vertical-offset="1642" max-vertical-offset="2700">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_gen.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/_gen/image_gen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="60" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-4.0740743" vertical-offset="1222" max-vertical-offset="4230">
-              <folding>
-                <marker date="1404668800208" expanded="true" signature="1762:1854" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,15 +47,6 @@
         <entry file="file://$PROJECT_DIR$/lib/modules/ocr/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="35" column="0" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="3402">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/model/image.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1764">
               <folding />
             </state>
           </provider>
@@ -198,10 +112,10 @@
         <option value="$PROJECT_DIR$/node_modules/njax/lib/modules/s3.js" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
-        <option value="$PROJECT_DIR$/../njax/lib/modules/s3.js" />
         <option value="$PROJECT_DIR$/lib/modules/ocr/index.js" />
         <option value="$PROJECT_DIR$/lib/model/_gen/image_gen.js" />
         <option value="$PROJECT_DIR$/node_modules/njax/lib/njax.js" />
+        <option value="$PROJECT_DIR$/../njax/lib/modules/s3.js" />
       </list>
     </option>
   </component>
@@ -238,7 +152,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,8 +170,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr-fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,15 +265,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -419,8 +347,18 @@
           <line>82</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../njax/lib/modules/s3.js</url>
+          <line>98</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../njax/lib/modules/s3.js</url>
+          <line>100</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="92" />
+      <option name="time" value="97" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -575,9 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/routes/middleware.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1980">
-          <folding />
-        </state>
+        <state line="33" column="0" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1980" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/async/lib/async.js">
@@ -586,11 +522,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="0" selection-start="11203" selection-end="11932" vertical-scroll-proportion="0.5714286" vertical-offset="2328" max-vertical-offset="2934" />
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="11203" selection-end="11932" vertical-scroll-proportion="0.5714286" vertical-offset="2328" max-vertical-offset="2934" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/demo.hjs">
@@ -622,35 +558,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/njax/lib/modules/s3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="23" selection-start="4158" selection-end="4158" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2592">
-          <folding />
-        </state>
+        <state line="100" column="23" selection-start="4158" selection-end="4158" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2592" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/symbol.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/symbol.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-          <folding />
-        </state>
+        <state line="7" column="39" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/model/symbol.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/aws-sdk/lib/services/s3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="34" selection-start="8089" selection-end="8089" vertical-scroll-proportion="0.2137161" vertical-offset="4474" max-vertical-offset="6462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/model/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../njax/node_modules/express/node_modules/send/lib/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="35" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.33248082" vertical-offset="2732" max-vertical-offset="8640">
           <folding />
         </state>
       </provider>
@@ -662,40 +599,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/aws-sdk/lib/services/s3.js">
+    <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="34" selection-start="8089" selection-end="8089" vertical-scroll-proportion="0.2137161" vertical-offset="4474" max-vertical-offset="6462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../njax/lib/modules/s3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="55" selection-start="2493" selection-end="2500" vertical-scroll-proportion="-6.4814816" vertical-offset="815" max-vertical-offset="2700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/ocr/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="3402">
+        <state line="64" column="24" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.353562" vertical-offset="1018" max-vertical-offset="3834">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/_gen/image_gen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="60" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-4.0740743" vertical-offset="1222" max-vertical-offset="4230">
+        <state line="74" column="60" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.29023746" vertical-offset="1222" max-vertical-offset="4230">
           <folding>
-            <marker date="1404668800208" expanded="true" signature="1762:1854" placeholder="{...}" />
+            <marker date="1404668800208" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/symbol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="457" selection-end="457" vertical-scroll-proportion="0.24863388" vertical-offset="125" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/symbol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -706,9 +636,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/lib/modules/ocr/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="24" selection-start="1837" selection-end="1837" vertical-scroll-proportion="0.33168316" vertical-offset="1018" max-vertical-offset="3834">
+        <state line="35" column="0" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="3402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../njax/lib/modules/s3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="62" selection-start="4153" selection-end="4153" vertical-scroll-proportion="0.29539952" vertical-offset="1642" max-vertical-offset="2700">
           <folding />
         </state>
       </provider>
