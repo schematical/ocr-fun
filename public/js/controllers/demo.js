@@ -61,8 +61,8 @@ angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
                                 console.log("Saved... attempting to create_from_cluster", $scope.symbol.name, $scope.symbol.namespace);
                                 $scope.symbol.$create_from_cluster(
                                     {
-                                        namespace:$scope.namespace,
-                                        name:$scope.name,
+                                        //namespace:$scope.symbol.namespace,
+                                        //name:$scope.symbol.name,
                                         image:njax_bootstrap.image._id,
                                         cluster:_cluster._id
                                     },
