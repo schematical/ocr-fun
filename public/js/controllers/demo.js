@@ -50,14 +50,15 @@ angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
                             //Pop up modal
                             $scope.cluster = this;
                             $scope.symbol = new Symbol({
-                                library:'default'
+                                library:'default',
+
                             });
                             $('#div-create-symbol').modal('show')
                         }
                         cluster.save_symbol = function(symbol){
                             var _cluster = this;
                             //$scope.symbol.$save(function(){
-                                console.log("Saved... attempting to create_from_cluster");
+                                console.log("Saved... attempting to create_from_cluster", $scope.symbol.name, $scope.symbol.namespace);
                                 $scope.symbol.$create_from_cluster(
                                     {
                                         namespace:$scope.namespace,
