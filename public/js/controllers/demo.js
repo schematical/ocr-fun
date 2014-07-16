@@ -29,7 +29,7 @@ angular.module('iraas.demo', [ 'iraas.cluster.service', 'iraas.symbol.service'])
                         var cluster = njax_bootstrap.clusters[i];
                         var bounds = cluster.bounds;
 
-                        var scale = .2;
+                        var scale = .4;//.2;
                         var left = (bounds.cols.min/scale) / h_ratio;
                         var width = ((bounds.cols.max - bounds.cols.min)/scale) / h_ratio;
 
